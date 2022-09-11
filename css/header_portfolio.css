@@ -1,0 +1,52 @@
+header {
+    padding: 25px 0;
+}
+
+.webstudio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.webstudio-list {
+    display: flex;
+    align-items: center;
+}
+
+.webstudio-list a {
+    margin: 0 25px;
+    color: black;
+}
+.webstudio-list li:nth-child(3) a {
+    color:#2196F3;
+}
+.webstudio-list li:hover {
+    cursor: pointer;
+}
+.webstudio-list li:hover a{
+    color:#2196F3;
+}
+.webstudio-list li:active a{
+    color: #196cb1;
+}
+
+.webstudio-list li:first-child {
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+
+nav a:first-child{
+    margin-right: 50px;
+    color:#2196F3;
+}
+nav a:last-child{
+    color: #757575;
+}

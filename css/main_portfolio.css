@@ -1,0 +1,68 @@
+main {
+    padding-bottom: 94px;
+}
+.main-list{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    justify-content: center;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+}
+.main-list li{
+    margin: 0 4px;
+    padding: 6px 22px;
+    background: #F5F4FA;
+    cursor: pointer;
+}
+
+.main-list li:hover{
+    background: #2196F3;
+    /* shadow-middle */
+    font-weight: 500;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+/* -------------------main-cards-------------------- */
+.main-cardlist {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.main-card {
+    padding-bottom: 20px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.main-card img{
+    margin-bottom: 20px;
+}
+.main-card p{
+    padding-left: 24px;
+}
+.main-card p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.main-card p:last-child{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
