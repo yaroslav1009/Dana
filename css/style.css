@@ -16,3 +16,16 @@
     border: 1px solid #ECECEC;
     margin-bottom: 100px;
 }
+#logo a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: black;
+    margin-right: 68px;
+}
+#logo span {
+    color: #2196F3;
+}

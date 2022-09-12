@@ -29,16 +29,9 @@ footer {
 }
 
 .footer-list li:first-child{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
     color: white;
     margin-bottom: 20px;
 }
 .footer-list li:first-child span{
     color: #2196F3;
-
 }

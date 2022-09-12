@@ -2,6 +2,8 @@
     background: #2F303A;
     padding: 200px 0;
     margin-bottom: 94px;
+    animation-name: color;
+    animation-duration: 4s;
 }
 
 .effective-business h1 {
@@ -24,10 +26,9 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    display: flex;
-    align-items: center;
+    display: block;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background: #2196F3;
@@ -57,7 +58,6 @@
 
 .business-plan ul li:first-child{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -69,7 +69,6 @@
 
 .business-plan li{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -82,7 +81,6 @@
 main h2 {
     margin: auto;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -103,7 +101,6 @@ main h2 {
 }
 .team h2{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -131,7 +128,6 @@ main h2 {
     padding-top: 30px;
     padding-bottom: 10px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
@@ -143,7 +139,6 @@ main h2 {
 .team-img-card p:last-child{
     padding-bottom: 30px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;

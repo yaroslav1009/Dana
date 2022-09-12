@@ -19,12 +19,15 @@ header {
     display: flex;
     align-items: center;
 }
+nav {
+    display: flex;
+}
 
 .webstudio-list a {
     margin: 0 25px;
     color: black;
 }
-.webstudio-list li:nth-child(2) a {
+.webstudio-list li:first-child a {
     color:#2196F3;
 }
 .webstudio-list li:hover {
@@ -37,16 +40,10 @@ header {
     color: #196cb1;
 }
 
-.webstudio-list li:first-child {
-    margin-left: 0;
-    margin-right: 25px;
-}
-
-
-nav a:first-child{
+.webstudio-mail a:first-child{
     margin-right: 50px;
     color:#2196F3;
 }
-nav a:last-child{
+.webstudio-mail a:last-child{
     color: #757575;
 }
