@@ -39,11 +39,13 @@ nav {
 .webstudio-list li:active a{
     color: #196cb1;
 }
-
-.webstudio-mail a:first-child{
+.webstudio-mail{
+    display: flex;
+}
+.webstudio-mail li:first-child a{
     margin-right: 50px;
     color:#2196F3;
 }
-.webstudio-mail a:last-child{
+.webstudio-mail li:last-child a{
     color: #757575;
 }
